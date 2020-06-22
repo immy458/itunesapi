@@ -1,5 +1,5 @@
 ul {
-  height: 72vh;
+  height: 64vh;
   font-size: 22px;
   list-style-type: none;
   overflow: auto;
@@ -77,7 +77,32 @@ li:hover {
   font-size: 26px;
   color: whitesmoke;
   margin-bottom: 25px;
+  margin-top: 20px;
 }
 .favbutton {
   margin-left: 20px;
+  background: url("https://api.iconify.design/clarity:heart-line.svg?color=white")
+    no-repeat center center / contain;
+  border: none;
+  height: 40px;
+  width: 40px;
+  outline: none !important;
+}
+.favbutton:hover {
+  background: url("https://api.iconify.design/clarity:heart-line.svg?color=red")
+    no-repeat center center / contain;
+}
+.favlist {
+  color: black;
+  border: none;
+  height: auto;
+  width: 90%;
+}
+.favcontents {
+  border: none;
+  width: 90%;
+}
+.fav {
+  background-color: palevioletred !important;
+  color: white !important;
 }
