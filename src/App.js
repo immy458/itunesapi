@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import MusicList from "./musiclist";
 import Search from "./Search";
@@ -38,7 +37,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <p>Boing Boing Team</p>
+          <p>iTunes API</p>
         </header>
         <Search onSearch={this.onSearch} />
         <div>

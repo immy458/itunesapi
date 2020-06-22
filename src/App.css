@@ -3,16 +3,16 @@
 }
 .App {
   text-align: center;
-  background-color: #282c34;
   width: 99.3vw;
   height: 100vh;
+  background-color: #282c34;
 }
 
 .App-header {
-  background-color: #282c34;
   text-align: center;
   font-size: 26px;
   color: white;
+  background-color: #282c34;
 }
 
 .App-link {
